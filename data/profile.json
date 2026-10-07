@@ -1,0 +1,24 @@
+{
+  "name": "Gitesh Pareek",
+  "role": "Backend & AI Engineer",
+  "handle": "GenMech",
+  "brand": { "initial": "g", "name": "gitesh", "suffix": ".dev" },
+  "intro": "building bits. shipping bytes.",
+  "description": [
+    "APIs, AI agents, and the queues doing the heavy lifting.",
+    "I build the systems that keep working after the demo ends."
+  ],
+  "location": { "city": "Delhi", "country": "India", "countryCode": "IN", "timeZone": "Asia/Kolkata", "utcLabel": "UTC+05:30" },
+  "email": "pareekgitesh89@gmail.com",
+  "socials": [{ "label": "GitHub", "url": "https://github.com/GenMech", "icon": "github" }],
+  "education": [{ "degree": "B.Tech. in Computer Science", "institution": "Maharaja Agrasen Institute of Technology", "location": "Delhi", "startDate": "2020-08", "endDate": "2024-08", "score": "9.3", "scoreLabel": "CGPA" }],
+  "achievements": [
+    { "icon": "↗", "value": "2nd / 320+", "label": "submissions", "context": "48-hour MLH hackathon" },
+    { "icon": "{ }", "value": "500+", "label": "problems solved", "context": "LeetCode" }
+  ],
+  "contact": {
+    "comment": "// start a thread",
+    "title": "Think we could build something valuable together?",
+    "description": "I bring backend and AI experience, curiosity, and a willingness to learn. You bring a challenge worth taking on. Let’s see where we can help each other."
+  }
+}

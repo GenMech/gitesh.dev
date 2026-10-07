@@ -1,0 +1,10 @@
+[
+  { "category": "Languages", "items": ["TypeScript", "JavaScript", "Python", "SQL", "Java", "Go"] },
+  { "category": "Web & backend", "items": ["Next.js", "Node.js", "Express.js", "FastAPI", "tRPC", "Celery", "gevent"] },
+  { "category": "AI & retrieval", "items": ["LangChain", "AWS Bedrock", "OpenRouter", "Gemini API", "RAG", "Multi-agent orchestration"] },
+  { "category": "Developer tooling", "items": ["TypeScript Compiler API", "JSON Schema", "pnpm"] },
+  { "category": "Data & storage", "items": ["PostgreSQL", "MongoDB", "Redis", "Valkey", "Qdrant", "Upstash Redis"] },
+  { "category": "Cloud & deployment", "items": ["Docker", "AWS ECS Fargate", "EC2", "AWS SES"] },
+  { "category": "Systems & auth", "items": ["Multi-tenant SaaS", "Azure AD SSO", "SSE streaming", "Redis Pub/Sub", "Tenant-aware access"] },
+  { "category": "Architecture", "items": ["Service decomposition", "API gateways", "Asynchronous processing", "Conversation state"] }
+]

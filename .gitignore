@@ -1,0 +1,33 @@
+# Dependencies and generated output
+node_modules/
+/dist/
+
+# Local previews, caches, and hosting metadata
+.local/
+.cache/
+.vercel/
+.openai/
+
+# Environment secrets (keep safe example templates versionable)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Test and coverage output
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Local implementation plans
+/docs/superpowers/
+
+# Logs, archives, and OS/editor temporary files
+*.log
+*.tar.gz
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

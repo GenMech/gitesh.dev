@@ -1,0 +1,16 @@
+[
+  {
+    "id": "planet-sustech",
+    "company": "Planet Sustech",
+    "role": "Software Development Engineer, Backend & AI",
+    "startDate": "2024-09",
+    "endDate": null,
+    "location": "Remote, India",
+    "highlights": [
+      { "lead": "AI systems, end to end.", "text": "Independently deployed multi-agent services on AWS ECS Fargate, with gateways for routing, authentication, and conversation state." },
+      { "lead": "Documents into structured data.", "text": "Built Python and Celery pipelines using AWS Bedrock for bill and invoice classification, extraction, and human review, with queue-based workers outside the interactive API request path. Delivered retrieval and report comparisons across **1,000+ listed companies.**" },
+      { "lead": "Backends built for real workloads.", "text": "Cut API response time by **50%** through MongoDB aggregation and indexing. Moved I/O-bound Celery workers from prefork to gevent and used Redis Pub/Sub for real-time messaging." },
+      { "lead": "Multi-tenant products.", "text": "Delivered tenant-aware access controls, Azure AD SSO, SSE streaming, and application email through AWS SES. Built a four-module assessment platform collecting data from **800+ partner organizations.**" }
+    ]
+  }
+]

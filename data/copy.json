@@ -1,0 +1,33 @@
+{
+  "skipLink": "Skip to content",
+  "navigationLabel": "Main navigation",
+  "navigation": [{ "target": "experience", "label": "experience" }, { "target": "projects", "label": "projects" }, { "target": "playground", "label": "playground", "icon": "⌘" }],
+  "sections": {
+    "experience": { "title": "experience", "note": "Beyond localhost." },
+    "projects": { "title": "projects", "note": "Built & building." },
+    "stack": { "title": "toolkit", "note": "My usual imports." },
+    "playground": { "title": "playground", "note": "A little bit of fun." },
+    "background": { "title": "background", "note": "" }
+  },
+  "contactLink": "Get in touch",
+  "backToTop": "Back to top",
+  "present": "present",
+  "projectDetails": "Under the hood",
+  "technologiesLabel": "technologies",
+  "footer": "Small page. No dependency tree.",
+  "logo": { "staticLabel": "G pixel logo with a three-block snake", "pause": "Pause logo animation", "resume": "Resume logo animation", "hint": "click the G", "caption": "0x47" },
+  "counter": { "label": "byte++", "tickNote": "one tick per second", "pause": "pause", "resume": "resume", "pauseLabel": "Pause live counter", "resumeLabel": "Resume live counter", "valueLabel": "Live byte counter: {value} of 255" },
+  "playground": {
+    "title": "It all starts with a bit.",
+    "description": "Eight switches. One byte. 256 possibilities.",
+    "badge": "uint8",
+    "legend": "Flip a bit. See what changes.",
+    "bitLabel": "Bit {bit}, value {value}",
+    "decimal": "Decimal", "hex": "Hex", "ascii": "ASCII",
+    "presetLabel": "Set byte to ASCII {letter}",
+    "invert": "invert", "reset": "reset",
+    "noScript": "Enable JavaScript to flip the bits. The byte shown is 71: the ASCII letter G.",
+    "caption": "Finally, a place where flipping bits is a feature."
+  },
+  "clipboard": { "label": "Copy email address", "copiedLabel": "Email address copied", "success": "Email copied. Say hello!", "failure": "Couldn’t copy automatically. Select the address or use the email link." }
+}

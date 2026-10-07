@@ -1,0 +1,16 @@
+{
+  "name": "gitesh-pareek-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "build:production": "node scripts/build.mjs --production",
+    "test": "node --test tests/*.test.mjs",
+    "preview:export": "node scripts/export-preview.mjs",
+    "test:browser": "npm run preview:export && playwright test",
+    "check": "node scripts/check.mjs"
+  }
+}

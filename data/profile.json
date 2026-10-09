@@ -10,7 +10,11 @@
   ],
   "location": { "city": "Delhi", "country": "India", "countryCode": "IN", "timeZone": "Asia/Kolkata", "utcLabel": "UTC+05:30" },
   "email": "pareekgitesh89@gmail.com",
-  "socials": [{ "label": "GitHub", "url": "https://github.com/GenMech", "icon": "github" }],
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/GenMech", "icon": "github" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/itsgitesh/", "icon": "external" },
+    { "label": "Résumé", "url": "https://drive.google.com/file/d/1LrBUD9cP0OwR_IFlbT6UCpHsKaK-jnqJ/view?usp=sharing", "icon": "external" }
+  ],
   "education": [{ "degree": "B.Tech. in Computer Science", "institution": "Maharaja Agrasen Institute of Technology", "location": "Delhi", "startDate": "2020-08", "endDate": "2024-08", "score": "9.3", "scoreLabel": "CGPA" }],
   "achievements": [
     { "icon": "↗", "value": "2nd / 320+", "label": "submissions", "context": "48-hour MLH hackathon" },

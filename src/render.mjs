@@ -31,7 +31,7 @@ function hero(p, c, logo) {
     <p class="hero-description">${p.description.map(e).join('<br>')}</p>
     <div class="hero-links">
       <a class="contact-link" href="${e(mailto(p.email))}">${icon('email')} ${e(c.contactLink)}</a>
-      ${p.socials.map((social) => `<a href="${e(social.url)}" target="_blank" rel="noopener noreferrer">${icon(social.icon)} ${e(social.label)} <span class="external" aria-hidden="true">↗</span></a>`).join('\n')}
+      ${p.socials.map((social) => `<a href="${e(social.url)}" target="_blank" rel="noopener noreferrer">${social.icon === 'github' ? icon('github') + ' ' : ''}${e(social.label)}</a>`).join('\n')}
     </div>
     <div class="live-counter" id="live-counter" hidden>
       <span class="counter-label">${e(c.counter.label)}</span>

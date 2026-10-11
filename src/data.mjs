@@ -56,6 +56,7 @@ export function validateData(data, { production = false } = {}) {
   fields(site, 'site', ['title', 'description', 'socialDescription', 'socialImageAlt', 'language', 'locale', 'updatedAt']);
   if (!/^[a-z]{2}(?:-[A-Z]{2})?$/.test(site.language)) fail('site.language', 'use a language code such as en');
   if (typeof site.indexable !== 'boolean') fail('site.indexable', 'must be true or false');
+  if (site.googleAnalyticsId && !/^G-[A-Z0-9]+$/.test(site.googleAnalyticsId)) fail('site.googleAnalyticsId', 'use a Google Analytics measurement ID such as G-XXXXXXXXXX');
   if (site.url !== null) url(site.url, 'site.url', true);
   if ((site.indexable || production) && !site.url) fail('site.url', 'a public HTTPS URL is required to enable indexing or build for production');
   if (production && !site.indexable) fail('site.indexable', 'must be true for an indexable production build');

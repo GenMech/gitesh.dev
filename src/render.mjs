@@ -121,6 +121,14 @@ export async function renderSite(data) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   ${discovery.metadata}
+  ${data.site.googleAnalyticsId ? `<!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${e(data.site.googleAnalyticsId)}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', ${jsonScript(data.site.googleAnalyticsId)});
+  </script>` : ''}
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
   <link rel="alternate" type="text/markdown" href="./profile.md" title="${e(p.name)}">

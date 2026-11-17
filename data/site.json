@@ -4,10 +4,10 @@
   "language": "en",
   "locale": "en_IN",
   "title": "{name} — {role}",
-  "description": "{name} is a backend and AI engineer in {city}, {country}, building multi-agent systems, document intelligence, and reliable multi-tenant software.",
+  "description": "{name} builds backend and AI systems in {city}, {country}: multi-agent services, document intelligence, voice AI SDKs, and multi-tenant SaaS.",
   "socialDescription": "building bits. shipping bytes. Explore {name}’s backend engineering, production AI systems, and developer tools.",
   "socialImageAlt": "{name} — {role}. building bits. shipping bytes.",
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-11-18",
   "googleSiteVerification": "",
   "googleAnalyticsId": "G-8F9T2YG8QW",
   "bingSiteVerification": ""

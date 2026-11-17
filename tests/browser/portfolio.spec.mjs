@@ -119,6 +119,7 @@ test('professional content and contact are available without JavaScript', async 
   const context = await browser.newContext({ javaScriptEnabled: false });
   const page = await context.newPage();
   await page.goto(previewUrl);
+  await expect(page.getByRole('heading', { name: 'Hibiki', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Document Intelligence', exact: true })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Get in touch', exact: true })).toHaveAttribute('href', 'mailto:pareekgitesh89@gmail.com');
   await expect(page.getByRole('button', { name: 'Bit 7, value 128', exact: true })).toBeDisabled();

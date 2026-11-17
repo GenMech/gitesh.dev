@@ -1,5 +1,20 @@
 [
   {
+    "id": "hibiki",
+    "name": "Hibiki",
+    "summary": "Voice AI that listens, speaks, and knows when to stop.",
+    "description": "An application-independent voice AI SDK that streams Deepgram transcription, Gemini responses, and ElevenLabs speech over LiveKit WebRTC for English, Hindi, and Hinglish conversations.",
+    "technologies": ["LiveKit WebRTC", "Deepgram", "Gemini", "ElevenLabs"],
+    "languages": [],
+    "links": [],
+    "details": [
+      { "lead": "Interruptible by design.", "text": "Barge-in and streaming playback use a bounded **200 ms** audio queue and **50 ms** batched state updates; each turn tracks transcription, model response, generated audio, and browser playback." },
+      { "lead": "Actions wait for confirmation.", "text": "Exact previews and playback-verified spoken review gate idempotent execution, with outcome reconciliation when results need verification." },
+      { "lead": "Latency stays visible.", "text": "A rolling history of up to **100 turns** reports p50/p95 latency." }
+    ],
+    "detailNote": ""
+  },
+  {
     "id": "think-voice",
     "name": "Think Voice",
     "summary": "AI developer SDK & conversational CLI.",

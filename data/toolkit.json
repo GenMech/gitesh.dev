@@ -2,6 +2,7 @@
   { "category": "Languages", "items": ["TypeScript", "JavaScript", "Python", "SQL", "Java", "Go"] },
   { "category": "Web & backend", "items": ["Next.js", "Node.js", "Express.js", "FastAPI", "tRPC", "Celery", "gevent"] },
   { "category": "AI & retrieval", "items": ["LangChain", "AWS Bedrock", "OpenRouter", "Gemini API", "RAG", "Multi-agent orchestration"] },
+  { "category": "Voice AI", "items": ["LiveKit WebRTC", "Deepgram", "Gemini", "ElevenLabs", "Barge-in", "Streaming audio"] },
   { "category": "Developer tooling", "items": ["TypeScript Compiler API", "JSON Schema", "pnpm"] },
   { "category": "Data & storage", "items": ["PostgreSQL", "MongoDB", "Redis", "Valkey", "Qdrant", "Upstash Redis"] },
   { "category": "Cloud & deployment", "items": ["Docker", "AWS ECS Fargate", "EC2", "AWS SES"] },

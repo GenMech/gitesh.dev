@@ -103,7 +103,7 @@ export function validateData(data, { production = false } = {}) {
     if (!['experience', 'projects', 'stack', 'playground', 'background', 'contact'].includes(entry.target)) fail(`${path}.target`, 'unknown section');
     if (entry.icon !== undefined) text(entry.icon, `${path}.icon`);
   });
-  for (const section of ['experience', 'projects', 'stack', 'playground', 'background']) {
+  for (const section of ['experience', 'projects', 'achievements', 'stack', 'playground', 'background']) {
     fields(copy.sections?.[section], `copy.sections.${section}`, ['title']);
     text(copy.sections[section].note, `copy.sections.${section}.note`, true);
   }

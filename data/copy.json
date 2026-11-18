@@ -5,9 +5,10 @@
   "sections": {
     "experience": { "title": "experience", "note": "Beyond localhost." },
     "projects": { "title": "projects", "note": "Built & building." },
+    "achievements": { "title": "achievements", "note": "Beyond the code." },
     "stack": { "title": "toolkit", "note": "My usual imports." },
     "playground": { "title": "playground", "note": "A little bit of fun." },
-    "background": { "title": "background", "note": "" }
+    "background": { "title": "education", "note": "" }
   },
   "contactLink": "Get in touch",
   "backToTop": "Back to top",

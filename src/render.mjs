@@ -98,6 +98,11 @@ function playground(c) {
 function background(p, c) {
   return `<section id="background" class="section background-section" aria-labelledby="background-title">${sectionHeading('background', c)}
     ${p.education.map((entry) => `<div class="education"><div><h3>${e(entry.degree)}</h3><p>${e(entry.institution)}, ${e(entry.location)}</p></div><div class="job-meta"><span><time datetime="${entry.startDate}">${entry.startDate.slice(0, 4)}</time> — <time datetime="${entry.endDate}">${entry.endDate.slice(0, 4)}</time></span><span>${e(entry.scoreLabel)} <strong>${e(entry.score)}</strong></span></div></div>`).join('\n')}
+  </section>`;
+}
+
+function achievementsSection(p, c) {
+  return `<section id="achievements" class="section" aria-labelledby="achievements-title">${sectionHeading('achievements', c)}
     <div class="achievements">${p.achievements.map((item) => `<p><span class="achievement-icon" aria-hidden="true">${e(item.icon)}</span><span><strong>${e(item.value)}</strong> ${e(item.label)}<br><span class="muted">${e(item.context)}</span></span></p>`).join('')}</div>
   </section>`;
 }
@@ -143,6 +148,7 @@ export async function renderSite(data) {
       ${hero(p, c, logo)}
       ${work(data.experience, c)}
       ${projectsSection(data.projects, c)}
+      ${achievementsSection(p, c)}
       ${toolkitSection(data.toolkit, c)}
       ${playground(c)}
       ${background(p, c)}

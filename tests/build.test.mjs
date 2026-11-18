@@ -18,6 +18,10 @@ test('public build renders profile, projects and toolkit before any JavaScript r
   const { html, robots, sitemap } = await renderSite(data);
   for (const project of data.projects) assert.ok(html.includes(project.name));
   assert.ok(html.indexOf('id="experience"') < html.indexOf('id="projects"'));
+  assert.ok(html.includes('<section id="achievements" class="section" aria-labelledby="achievements-title">'));
+  assert.ok(html.indexOf('id="projects"') < html.indexOf('id="achievements"'));
+  assert.ok(html.indexOf('id="achievements"') < html.indexOf('id="stack"'));
+  for (const achievement of data.profile.achievements) assert.ok(html.includes(achievement.context));
   assert.ok(html.includes('FastAPI'));
   assert.ok(html.includes('<link rel="canonical" href="https://portfolio.test/">'));
   assert.ok(html.includes('name="robots" content="index, follow'));

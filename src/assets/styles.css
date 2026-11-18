@@ -131,8 +131,8 @@ legend { font: 11px/1.5 var(--mono); color: var(--subtle); padding: 0; margin-bo
 .noscript-note { font-size: 12px; padding: 15px 0; color: var(--muted); }
 .education h3 { font-size: 15px; }
 .education p { color: var(--muted); font-size: 13px; margin-top: 5px; }
-.achievements { display: flex; flex-wrap: wrap; gap: 24px 58px; margin-top: 25px; }
-.achievements > p { display: flex; gap: 12px; font-size: 12px; }
+.achievements { display: flex; flex-wrap: wrap; gap: 24px 30px; }
+.achievements > p { display: flex; flex: 1 1 220px; gap: 12px; font-size: 13px; }
 .achievement-icon { color: var(--accent); font-family: var(--mono); padding-top: 1px; }
 .contact-section { padding: 40px 0 29px; border-top: 1px solid var(--border); }
 .contact-comment { font: 10px/1.8 var(--mono); color: var(--subtle); margin-bottom: 14px; }
@@ -215,7 +215,7 @@ footer { border-top: 1px solid var(--border); padding: 22px 0 32px; font: 10px/1
   .lab-actions button { min-height: 34px; min-width: 34px; }
   .lab-caption { font-size: 9px; }
   .achievements { gap: 18px; justify-content: space-between; }
-  .achievements > p { font-size: 11px; gap: 8px; }
+  .achievements > p { font-size: 12px; gap: 8px; }
   .contact-section { padding-top: 32px; }
   .contact-section h2 { font-size: 22px; max-width: 300px; }
   .email-row a { font-size: 11px; }

@@ -15,22 +15,6 @@
     "detailNote": ""
   },
   {
-    "id": "think-voice",
-    "name": "Think Voice",
-    "summary": "AI developer SDK & conversational CLI.",
-    "description": "A framework-independent toolkit that connects AI to application actions through repository-owned TypeScript capabilities, workflows, and input/output contracts. A Gemini-powered CLI helps developers integrate it into their codebase.",
-    "technologies": ["TypeScript", "Node.js", "Gemini API", "JSON Schema", "TypeScript Compiler API", "pnpm"],
-    "languages": ["TypeScript"],
-    "links": [],
-    "details": [
-      { "lead": "Reviewed integrations.", "text": "The CLI inspects developer-selected source files, proposes changes, and applies them through reviewed diffs, schema validation, and stale-file checks." },
-      { "lead": "Static workflow compilation.", "text": "The TypeScript Compiler API parses declarative definitions without executing project code, validates dependency graphs, detects cycles, and checks workflow inputs against action schemas." },
-      { "lead": "A local developer workbench.", "text": "Inspect workflows, action bindings, schemas, and source definitions with live file refresh and dry-run previews of exact execution inputs." },
-      { "lead": "Execution tested in a CRM sandbox.", "text": "Confirmed multi-step actions exercise tenant-scoped permissions, optimistic concurrency, idempotent writes, partial-failure recovery, and reconciliation when responses are lost after successful commits." }
-    ],
-    "detailNote": ""
-  },
-  {
     "id": "prism",
     "name": "Prism",
     "summary": "From a rough idea to a build-ready plan.",
